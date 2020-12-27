@@ -8,11 +8,11 @@ def loop_message_five_times(string)
   end
 end  
 
-def loop_message_n_times(string, number)
+def loop_message_n_times(array, number)
   counter = 0
- 
+  array = ["Hello Moon.", "Hello Red Balloon."]
   while counter < number do
-    puts string
+    puts array
     counter += 1
   end
 end  
