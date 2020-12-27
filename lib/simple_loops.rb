@@ -19,7 +19,6 @@ end
 
 def output_array(array)
   counter = 0
-  quote = ["Be Yourself;", "everyone else is already taken", "- Oscar Wilde"]
   
   while quote[counter] do
     puts quote[counter]
