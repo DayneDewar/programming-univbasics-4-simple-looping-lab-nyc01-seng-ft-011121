@@ -20,8 +20,9 @@ end
 def output_array(array)
   counter = 0
   
-  while quote[counter] do
-    puts quote[counter]
+  
+  while array[counter] do
+    puts array[counter]
     counter += 1
   end
 end
