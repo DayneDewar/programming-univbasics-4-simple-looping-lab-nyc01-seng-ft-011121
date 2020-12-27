@@ -18,5 +18,6 @@ def loop_message_n_times(string, number)
 end  
 
 def output_array(array, number)
+  array = ["Be Yourself", "", "Oscar Wilde"]
   
 end
