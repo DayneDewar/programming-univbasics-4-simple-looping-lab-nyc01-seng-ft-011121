@@ -18,8 +18,8 @@ def loop_message_n_times(string, number)
 end  
 
 def output_array(array)
-  array = ["Be Yourself;", "everyone else is already taken", "- Oscar Wilde"]
   counter = 0
+  array = ["Be Yourself;", "everyone else is already taken", "- Oscar Wilde"]
   
   while array[counter] do
     puts array[counter]
