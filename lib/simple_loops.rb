@@ -19,10 +19,10 @@ end
 
 def output_array(array)
   counter = 0
-  array = ["Be Yourself;", "everyone else is already taken", "- Oscar Wilde"]
+  quote = ["Be Yourself;", "everyone else is already taken", "- Oscar Wilde"]
   
-  while array[counter] do
-    puts array[counter]
+  while quote[counter] do
+    puts quote[counter]
     counter += 1
   end
 end
