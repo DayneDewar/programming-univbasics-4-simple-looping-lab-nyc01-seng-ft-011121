@@ -17,7 +17,7 @@ def loop_message_n_times(string, number)
   end
 end  
 
-def output_array(array, number)
-  array = ["Be Yourself", "", "Oscar Wilde"]
+def output_array(array)
+  array = ["Be Yourself", "everyone else is already taken", "Oscar Wilde"]
   
 end
